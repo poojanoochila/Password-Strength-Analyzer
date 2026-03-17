@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Strength Analyzer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="wrapper">
+  <h1>Password Strength Analyzer</h1>
+  <p class="subtitle">Type your password and analyze its security.</p>
+
+  <div class="input-wrapper">
+    <input type="text" id="password" placeholder="Type your password..." />
+    <button class="toggle-btn" onclick="togglePassword()">Show/Hide</button>
+  </div>
+
+  <div class="strength-row">
+    <span>Strength</span>
+    <span class="badge" id="strength-badge">Very Weak</span>
+  </div>
+
+  <div class="progress-container">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+
+  <p class="crack-time">Estimated time to crack: <strong id="crack-time">Instant</strong></p>
+
+  <div class="suggestions-wrapper">
+    <p>Suggestions:</p>
+    <ul id="suggestions"></ul>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
