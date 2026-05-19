@@ -2,7 +2,7 @@
 
 A **full-stack password strength checker** with dynamic UI and Flask backend analysis. This project evaluates password entropy, displays estimated crack time, and provides a visually appealing interactive frontend for users to understand password security.
 
-## Feature
+## Features
 - **Dynamic password strength progress bar** with gradient and glow
 - **Animated checklist** for password requirements
 - **Show/hide password toggle**
