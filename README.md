@@ -40,4 +40,4 @@ python app.py
 #Usage
 Type a password to see its strength
 Toggle visibility to analyse it easily
-See live feedback via checklist and estimated crack time
+See live feedback via the checklist and estimated crack time
