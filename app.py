@@ -3,7 +3,7 @@ import math
 
 app = Flask(__name__)
 
-common_passwords = ["password", "123456", "qwerty", "admin", "letmein", "welcome", "abc123"]
+common_passwords = ["password", "123456", "qwerty", "admin", "letmein", "welcome", "abc123"
 
 def calculate_entropy(password):
     pool = 0
