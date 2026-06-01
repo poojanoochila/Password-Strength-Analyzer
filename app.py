@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 common_passwords = ["password", "123456", "qwerty", "admin", "letmein", "welcome", "abc123"]
 
-def calculate_entropy(password):
+def calculate_entropy(password)
     pool = 0
     if any(c.islower() for c in password): pool += 26
     if any(c.isupper() for c in password): pool += 26
